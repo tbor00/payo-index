@@ -19,7 +19,11 @@ body {
 }
 
 
-
+a {
+    text-transform: none !important;
+    text-decoration: none !important;
+    outline: none !important;
+}
 
 #nosotros {
     height: 100vh;
@@ -81,6 +85,67 @@ body {
 }
 
 
+.calltoAction {
+    padding-top:10px;
+    margin-top: 20px;
+    height: 300px;
+    background-color: #900d0d; 
+
+}
+
+
+
+#signinup {
+
+    
+    margin-top: 5%;
+    text-align: center;
+
+
+}
+
+
+
+.signup{
+    
+    padding: 10px;
+    display: inline;
+    margin: 10px;
+    color: #eeeeee;
+    border: 1px solid #eeeeee;
+
+}
+
+.signin {
+    padding: 10px;
+    display: inline;
+    margin-top: 10em;
+    color: #eeeeee;
+    border: 1px solid #eeeeee;
+    
+}
+
+.signin:hover {
+    color: white;
+    opacity: .7;
+
+}
+
+.signup:hover {
+    color: white;
+    opacity: .7;
+}
+
+.cthr {
+    background: #eeeeee !important;
+}
+
+
+.pmv {
+
+    height: 500px;
+
+}
 
 @media (max-width: 700px){
     .backgR {
