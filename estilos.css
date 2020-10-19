@@ -1,0 +1,103 @@
+body {
+
+    background: #eeeeee;
+    color: #323232;
+}
+
+.card {
+    margin-top: 10px;
+    background: #eeeeee ;
+}
+
+.backgR {
+    height: 80vh;
+    width: 100%;
+    background-image: url(/src/img/Carrousel/2.jpg) !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+#nosotros {
+    height: 100vh;
+}
+
+
+#nosotros h1 {
+    margin-top: 1em;
+    text-align: center;
+    color:#323232 ;
+}
+
+#nosotros h1 span {
+
+        color: #900d0d;
+
+}
+#nosotros hr {
+
+    height: 2px;
+    width: 10%;
+    text-align: center;
+    background: #900d0d;
+    border-radius: 7px;
+
+}
+
+#buttn {
+    padding-top: 0px;
+    font-size: 50px;
+    color: #900d0d;
+    opacity: .5;
+    text-align: center;
+    -webkit-transition: 1s ease 0s;
+
+}
+
+
+.nos{
+    text-align: center;
+    font-size: 15px;
+}
+
+
+.services {
+
+    text-align: center;
+    color: #900d0d;
+    font-size: 4em;
+    margin: 10px;
+
+}
+
+.card-title {
+
+        
+        font-size: 2em;
+
+}
+
+
+
+@media (max-width: 700px){
+    .backgR {
+        background-size: cover;
+        height: 50vh;
+        background-position: center;
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    .backgR {
+        background-size: cover;
+        height: 30vh;
+        background-position: center;
+    }
+
+}
+
