@@ -147,6 +147,34 @@ a {
 
 }
 
+.contact {
+
+    height: 800px;
+
+}
+
+.maps {
+
+        margin-top: 45px;
+
+}
+
+.maps iframe{
+
+    border: 1px solid black;
+    height: 400px;
+    width: 600px;
+    margin-left: 3em;
+
+}
+
+.footer {
+    margin-top: 20px;
+    height: 150px;
+
+}
+
+
 @media (max-width: 700px){
     .backgR {
         background-size: cover;
