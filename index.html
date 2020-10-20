@@ -9,7 +9,7 @@
   <title>Payo</title>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <a class="navbar-brand" href="#"><img src="/src/img/blanco.png" alt="" style="height: 30px;"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -28,13 +28,13 @@
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">¿Quiénes somos?</a>
+          <a class="nav-link" href="#nosotros">¿Quiénes somos?</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Productos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contacto</a>
+          <a class="nav-link" href="#contacto">Contacto</a>
         </li>
       </ul>
     </div>
@@ -155,8 +155,8 @@
 </div>
 
 
-<div class="contact">
- <h1>Contac<span>tanos</span></h1>
+<div class="contact" id="contacto">
+ <h1>Conta<span>ctanos</span></h1>
  <hr>
  <hr style="width: 5%;">
  <div class="container" id="portfolio">
@@ -195,19 +195,63 @@
         </div>
       </div>
     </div>
-  </div>
+
       
+    
+<!--Formulario-->
+    <div class="row" data-aos="fade-up">
 
+      <div class="col-lg-6 ">
+        <iframe class="mb-4 mb-lg-0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.1057574809283!2d-58.417220684769!3d-34.652031980446935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb75d95b3ff3%3A0x25dafda7c6862350!2sPayo%20y%20C%C3%ADa.%20S.R.L.!5e0!3m2!1ses!2sar!4v1603147489088!5m2!1ses!2sar" frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe>
+      </div>
 
+      <div class="col-lg-6">
+        <form action="" method="post" role="form" class="">
+          <div class="form-row">
+            <div class="col-md-6 form-group">
+              <input type="text" name="name" class="form-control" id="name" placeholder="Nombre" data-rule="minlen:4" data-msg="Porfavor ingresa tu nombre" />
+              <div class="validate"></div>
+            </div>
+            <div class="col-md-6 form-group">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Email" data-rule="email" data-msg="Porfavor ingresa un email valido" />
+              <div class="validate"></div>
+            </div>
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto" data-rule="minlen:4" data-msg="Porfavor ingresa un asunto de más de 8 caracteres" />
+            <div class="validate"></div>
+          </div>
+          <div class="form-group">
+            <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Mensaje" placeholder="Mensaje"></textarea>
+            <div class="validate"></div>
+          </div>
+          
+          <div class="text-center"><button type="submit" id="btn-contc">Enviar mensaje</button></div>
+        </form>
+      </div>
 
-<div class="fcontact">
-</div>
-</div>
+    </div>
+  </div>
 
 
 
 
 <div class="footer bg-dark">
+
+  <div class="rs text-center mt-5" style="padding-top: 30px;" >
+
+   <a href="https://www.facebook.com/Electricidad.Payo" target="__blank" style="font-size: 50px;color:white;padding: 10px;"><i class="fab fa-facebook text-center"></i></a> 
+    <a href="https://www.instagram.com/electricidad.payo/" target="__blank" style="font-size: 50px;color: white;"><i class="fab fa-instagram"></i></a>
+    <p style="color: white;">
+      © Copyright <span style="color:Red">PAYO.</span>  Todos los derechos reservados
+      <br>
+      <br>
+      Desarrollado por <span> <a href="https://argxentia.com.ar" target="__blank">Argxentia</a> </span> 
+  </p>
+  </div>
+
+
+
 
 </div>
 

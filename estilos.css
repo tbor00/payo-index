@@ -155,31 +155,73 @@ a {
 
 .maps {
 
+        
         margin-top: 45px;
 
 }
 
-.maps iframe{
 
-    border: 1px solid black;
-    height: 400px;
-    width: 600px;
-    margin-left: 3em;
-
-}
 
 .footer {
     margin-top: 20px;
-    height: 150px;
+    height: 200px;
 
 }
+
+.footer a{
+
+    text-align: center;
+
+}
+
+#btn-contc {
+    padding: 20px;
+    background: #900d0d;
+    color: white;
+    border: none;
+    width: 200px;
+
+}
+
+#brock {
+    padding-top: 10px;
+    display: block;
+    color: white;
+    text-align: left;
+    margin-left: 5%;
+}
+
+
+.form-group input {
+
+    border-radius: 0;
+    padding: 20px;
+
+}
+
+
+
+#nosotros {
+
+    text-align: center;
+
+}
+
+
 
 
 @media (max-width: 700px){
     .backgR {
+        margin-top: 30px;
         background-size: cover;
         height: 50vh;
         background-position: center;
+    }
+
+    #maps {
+        width: 100% !important;
+        height: 300px !important;
+        margin:0;
     }
 
 }
@@ -187,10 +229,16 @@ a {
 @media (max-width: 500px) {
 
     .backgR {
+        margin-top: 30px;
         background-size: cover;
         height: 30vh;
         background-position: center;
-    }
 
+    }
+    #maps {
+        width: 100% !important;
+        height: 300px !important;
+        margin:0;
+    }
 }
 
